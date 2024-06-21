@@ -269,7 +269,7 @@ section{background:#fff;}
 .announcement .announceCard:nth-child(4){background: linear-gradient(to top,#BFFFF0,#34FFCE);}
 
 .announcement .announceCard .wave{
-	background-image: url(image/wave.png);
+	background-image: url(../image/wave.png);
 	background-size: 500px 300px;
 	position:absolute;
 	bottom:-100%;
