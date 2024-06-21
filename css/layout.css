@@ -1022,9 +1022,9 @@ margin-bottom: 85px;}
 	height:100%;
 	background-color: #00000040;
 }
-.costMore ul li:nth-child(1){background-image: url(image/fee1.jpg);}
-.costMore ul li:nth-child(2){background-image: url(image/fee2.jpg);}
-.costMore ul li:nth-child(3){background-image: url(image/fee3.jpg);}
+.costMore ul li:nth-child(1){background-image: url(../image/fee1.jpg);}
+.costMore ul li:nth-child(2){background-image: url(../image/fee2.jpg);}
+.costMore ul li:nth-child(3){background-image: url(../image/fee3.jpg);}
 
 .firstTable, .costCard, .rent{opacity:0;}
 .costTrigger{
