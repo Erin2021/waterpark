@@ -64,14 +64,14 @@ footer{
 	margin-top:65px;
 	width:493px;
 	height: 165px;
-	background: url(/image/footer1.png) no-repeat center center;
+	background: url(../image/footer1.png) no-repeat center center;
 	border: 5px solid #E8F1F3;
 	border-radius: 10px;
 	transition: 0.5s;
 }
 
 .footRight>a:hover{
-	background-image: url(/image/footer2.png);
+	background-image: url(../image/footer2.png);
 }
 
 
