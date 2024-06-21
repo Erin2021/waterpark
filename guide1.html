@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+  <link rel="icon" type="image/x-icon" href="image/favicon.png">
+  <link rel="stylesheet" href="css/style.css">
+  <title>오늘의 파크 안내</title>
+</head>
+
+<body>
+  <div id="wrap">
+    <header>
+      <nav>
+        <a href="index.html"><img src="image/logo.png" alt="logo" title="캐리비안베이 로고"></a>
+        <ul class="gnb">
+          <li class="main"><a href="cbStory.html">캐비 스토리</a>
+          <li class="main"><a href="guide1.html">이용안내<i class="fa-solid fa-arrow-up"></i></a>
+            <ul class="sub s2">
+              <li><a href="guide1.html">오늘의 파크</a></li>
+              <li><i class="fa-solid fa-droplet"></i></li>
+              <li><a href="guide2.html">이용가이드</a></li>
+              <li><i class="fa-solid fa-droplet"></i></li>
+              <li><a href="guide3.html">교통정보</a></li>
+            </ul></li>
+          <li class="main"><a href="fee1.html">요금안내<i class="fa-solid fa-arrow-up"></i></a>
+            <ul class="sub s3">
+              <li><a href="fee1.html">이용요금</a></li>
+              <li><i class="fa-solid fa-droplet"></i></li>
+              <li><a href="fee2.html">이달의 할인</a></li>
+            </ul></li>
+          <li class="main"><a href="notice1.html">캐비 소식<i class="fa-solid fa-arrow-up"></i></a>
+            <ul class="sub s4">
+              <li><a href="notice1.html">공지사항</a></li>
+              <li><i class="fa-solid fa-droplet"></i></li>
+              <li><a href="notice2.html">이벤트</a></li>
+              <li><i class="fa-solid fa-droplet"></i></li>
+              <li><a href="notice3.html">자주 묻는 질문</a></li>
+            </ul></li>
+        </ul>
+        <select name="language" id="language">
+          <option disabled selected>Language</option>
+          <option value="eng">English</option>
+          <option value="kor">한국어</option>
+        </select>
+      </nav>
+  
+  
+      <div class="bg_box"></div>
+    </header>
+    
+
+
+    <main id="sub2">
+      <div class="video-frame">
+        <video src="image/sub2.mp4" autoplay muted loop poster="image/poster.jpg" ></video>
+      </div>
+      <div class="caption">
+        <p>이용 안내</p>
+      </div>
+    </main>
+
+    
+    <section id="container">
+    <div class="section_in">
+      <!-- 서브메뉴 -->
+      <div class="smenu">
+        <ul>
+          <li><a href="guide1.html" class="active">오늘의 파크</a></li>
+          <li><a href="guide2.html">이용가이드</a></li>
+          <li><a href="guide3.html">교통정보</a></li>
+        </ul>
+      </div>
+
+      <div class=section_title>
+        <h1>오늘의 파크</h1>
+      </div>
+      <!-- 서브페이지 내용 -->
+      <div class="todaypark">
+        <div class="todaypark_in">
+          <h2>오늘은... <em>2024.05.14</em> 입니다.</h2>
+          <div class="todayparkTop">
+            <div class="parkCard1">
+              <img src="image/weather.png" alt="sunny">
+              <p>24.9°C<em>자외선을 조심해야겠어요.</em></p>
+            </div>
+            <div class="parkCard2">
+              <h3>운영시간</h3>
+              <p>실내<i>10:00 - 17:00</i></p>
+              <p>실외<i>11:00 - 16:00</i></p>
+            </div>
+            <div class="parkCard3">
+              <h3>수질 현황</h3>
+              <div class="water">
+                <i class="fa-solid fa-face-laugh"></i>
+                <p>아주 깨끗해요.<em>2024.05.14 11:59기준</em></p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="todayparkMiddle">
+          <div class="parkCard4">
+            <h3>미운영 시설</h3>
+            <div class="closed">
+              <span class="material-symbols-outlined">attractions</span>
+              <p><em>어트랙션</em>다이빙풀</p>
+              <p>종료</p>
+            </div>
+          </div>
+          <div class="parkCard5">
+            <h3>영업 중인 레스토랑</h3>
+            <div class="restaurant">
+              <div class="card">
+                <img src="image/restaurant1.png" alt="폴바셋">
+                <p>폴바셋</p>
+                <p><i class="fa-solid fa-clock"></i>10:00~17:30</p>
+              </div>
+              <div class="card">
+                <img src="image/restaurant2.png" alt="멜팅 소울">
+                <p>멜팅 소울</p>
+                <p><i class="fa-solid fa-clock"></i>10:00~17:30</p>
+              </div>
+              <div class="card">
+                <img src="image/restaurant3.png" alt="락카카트">
+                <p>락카카트</p>
+                <p><i class="fa-solid fa-clock"></i>11:30~17:30</p>
+              </div>
+              <div class="card">
+                <img src="image/restaurant4.png" alt="마그리드">
+                <p>마그리드</p>
+                <p><i class="fa-solid fa-clock"></i>11:00~18:30</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="todayparkBottom">
+          <h3><i class="fa-solid fa-triangle-exclamation"></i>유의사항</h3>
+          <p>폭우, 강풍, 기온 저하 등 기상 악화 시 어트랙션 운행이 중단될 수 있으니 양해해주시기 바랍니다.</p>
+          <p>운휴 일정은 주간 단위로 업데이트 되므로, 방문 예정일의 운휴 일정이 확정 전이라면 방문일 전에 운휴 일정을 재확인하시기 바랍니다.</p>
+          <p>운휴 일정은 현장 상황에 따라 예고 없이 변경될 수 있습니다.</p>
+        </div>
+      </div>
+    </div>    
+
+	</section>
+
+  <footer>
+    <div class="footContent">
+      <div class="footLeft">
+        <img src="image/logo.png" alt="logo">
+        <ul class="des">
+          <li><a href="#none">이용약관</a></li>
+          <li><a href="#none">개인정보 처리방침</a></li>
+          <li><a href="#none">방침 개정 안내</a></li>
+          <li><a href="#none">이메일주소 무단수집 거부</a></li>
+          <li><a href="#none">입찰공고</a></li>
+          <li><a href="#none">고객센터 : 031-320-5000 (유료, 09:00~18:00)</a></li>
+        </ul>
+        <p>경기도 용인시 처인구 포곡읍 에버랜드로 199 삼성물산(주)<br>
+          대표이사 : 정해린  |  사업자등록번호 : 135-85-04288<br>
+          통신판매업 신고번호 : 제2006-용인처인-0216호</p>
+        <address>Copyright © Samsung C&T Corporation. All rights reserved.</address>
+      </div>
+
+      
+      <div class="footRight">
+        <div class="footerSelect">
+          <div class="family">
+            <div class="dropdown">
+              <div class="titleF">FAMILY SITE</div>
+              <ul class="sub-navi">
+                <li><a href="#none">삼성물산 리조트부문</a></li>
+                <li><a href="#none">베네스트 골프</a></li>
+                <li><a href="#none">삼성화재안내견학교</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="family">
+            <div class="dropdown">
+              <div class="titleF">리조트 내 시설</div>
+              <ul class="sub-navi">
+                <li><a href="#none">삼성화재 모빌리티뮤지엄</a></li>
+                <li><a href="#none">호암미술관</a></li>
+                <li><a href="#none">글렌로스 골프클럽</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <a href="#none"><!-- <img src="/image/footer1.png" alt="#notice"> --></a>
+      </div>
+      
+    </div>
+  </footer>
+
+  </div>
+
+  <!-- Script Source -->
+  <script src="js/jquery-3.7.0.min.js"></script>
+  <script src="js/jquery-ui-1.10.4.custom.min.js"></script>
+  <script src="js/script.js"></script>
+
+
+  
+</body>
+</html>

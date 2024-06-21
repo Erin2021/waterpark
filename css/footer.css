@@ -1,0 +1,125 @@
+/*---------- footer style ----------*/
+
+footer{
+	/* background:#ff4d51; */
+	background-color: #304A5580;
+	display: flex;
+	justify-content: center;
+}
+.footContent{
+	width: 1300px;
+	display: flex;
+	justify-content: space-between;
+
+	
+}
+.footLeft img{
+	display:block;
+	margin-top:35px;
+	height: 40px;
+}
+.footLeft .des{
+	width:600px;
+	margin-top:30px;
+	display: flex;
+	flex-wrap: wrap;
+}
+.footLeft .des a{
+	padding:0 10px;
+	display: inline-block;
+	font-size: 16px;
+	font-weight: 400;
+	color:#E8F1F3;
+	border-right:2px solid #E8F1F3;
+}
+
+.footLeft .des a:hover{
+	text-decoration: underline 1px #E8F1F3;
+}
+
+.footLeft p{
+	margin-top:50px;
+	padding-left:10px;
+	font-size: 14px;
+	font-weight: 400;
+	color:#002646;
+}
+.footLeft address{
+	color:#002646;
+	padding-left:10px;
+	margin:50px 0 30px;
+	font-size:14px;
+	font-style:normal;
+}
+
+.footRight .footerSelect{
+	margin-top:35px;
+	display: flex;
+	justify-content: space-between;
+}
+
+
+.footRight>a{
+	display: block;
+	margin-top:65px;
+	width:493px;
+	height: 165px;
+	background: url(/image/footer1.png) no-repeat center center;
+	border: 5px solid #E8F1F3;
+	border-radius: 10px;
+	transition: 0.5s;
+}
+
+.footRight>a:hover{
+	background-image: url(/image/footer2.png);
+}
+
+
+
+/* _______________________ */
+.dropdown {
+  width: 235px;
+	height: 32px;
+  position: relative;
+  background-color: transparent;
+  padding:0 8px;
+  border: 2px solid #E8F1F3;
+	line-height: 32px;
+	font-size: 16px;
+	color:#E8F1F3;
+	font-weight: 400;
+	cursor: pointer;
+}
+.sub-navi {
+  display: none;
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  line-height: 30px;
+  width: 100%;
+  background-color: #ffffff79;
+	border: 1px solid #002646;
+  border-bottom: none;
+}
+.sub-navi li {
+	font-size: 16px;
+  padding: 1px 10px;
+  border-bottom: 1px solid #777;
+}
+.sub-navi li a {color:#002646; font-weight: 700;}
+.sub-navi li:hover a {color: #0072B2;}
+
+
+.titleF:after {
+  content:"\f107";
+  font-family: fontawesome;
+  position: absolute;
+  top: 0;
+  right:0;
+  color: #E8F1F3;
+  width: 30px;
+  height: 100%;
+  text-align: center;
+  line-height: 30px;
+}
+.titleF.active:after {transform: rotateX(180deg);}

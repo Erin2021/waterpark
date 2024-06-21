@@ -1,0 +1,202 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css');
+
+
+/*주메뉴별 바뀌는 서브페이지의 탑배경이미지*/
+#sub1,#sub2,#sub3,#sub4{
+	width:100%;
+	height:400px;
+  position:relative;
+}
+
+.video-frame video{
+  position:fixed;
+  min-width: 100%;
+  min-height: 100%;
+  z-index:-1;
+}
+
+.video-frame:before{
+  content: '';
+  background: linear-gradient(to top,#002646,transparent);
+  width:100%;
+  height:100%;
+  position:absolute;
+  top:0;
+  left:0;
+}
+
+.mainvideo video{
+  position:fixed;
+  min-width: 100%;
+  min-height: 100%;
+  z-index:-1;
+}
+
+.caption{
+  /* border: 1px solid #f00; */
+  position:absolute;
+  width:700px;
+  left:350px;
+  bottom:100px;
+  z-index: 10;
+}
+
+.caption p{
+	font-family: 'SokchoBadaDotum',sans-serif;
+	font-size: 48px;
+	color:#fff;
+	font-weight: 700;
+}
+
+h1{
+  font-family: 'SokchoBadaDotum',sans-serif;
+	font-size: 48px;
+	color:#fff;
+	font-weight: 700;
+}
+
+
+
+/* 🦄header___________________________________ */
+
+header{
+  font-family: 'SokchoBadaDotum',sans-serif;
+  width:100%;
+  height: 80px;
+  background-color: #fff;
+  position:relative;
+  position: fixed;
+  z-index: 9999;
+  transition: 0.3s;
+}
+nav{
+  width:1200px;
+  height: inherit;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Main Menu */
+ul.gnb{
+  /* border: 1px solid green; */
+  display: flex;
+}
+
+.gnb>.main{/* 자손선택자로 메인메뉴에만 적용하게 함(.gnb에서 첫번째 자식인 .main만 적용) */
+  position:relative;
+  text-align: center;
+}
+
+.gnb>.main>a{
+
+  position:relative;
+  height: 80px;
+  padding:0 35px;
+  display: flex;
+  align-items: center;
+  color: #002646; 
+  font-size: 18px;
+  font-weight: 700;
+  transition: 0.5s;
+
+  overflow: hidden;
+}
+
+
+.gnb>.main>a>i{
+	font-size: 15px;
+	padding:0px;
+	padding-left:4px;
+	color: #002646; 
+	transition: 0.5s;
+	rotate : x 180deg;
+}
+.gnb>.main:hover>a{color:#0072B2;}
+.gnb>.main:hover>a>i{rotate: x 360deg;color:#0072B2;}
+
+
+/* Sub Menu */
+.sub{
+  /* display: none; */
+  position:absolute;
+  width:100%;
+  height: 50px;
+  top:100%;
+  left:0;
+  z-index:100;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap:20px;
+
+}
+
+.sub li{
+  /* border: 1px solid #f00; */
+  height:50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sub li a{
+  color:#002646; 
+  font-size:18px;
+  border-bottom: 1px solid transparent;
+}
+
+.sub li i{
+  font-size:13px;
+	padding:0 30px;
+}
+.sub li:hover a{color:#0072B2;border-bottom: 1px solid #0072B2;}
+
+/*서브메뉴 가로폭,나오는값위치값->부모영역을 벗어나서 위치를 잡기 위함*/
+/* .s1{width:450px;left:-70px;} */
+.s2{width:1200px;left:-500px;}
+.s3{width:1200px;left:-650px;}
+.s4{width:1200px;left:-800px;}
+
+/*100%서브배경박스->jQuery에서 보이게 함*/
+.bg_box{
+  display: none;
+  position:absolute;
+  top:100%;
+  left:0;
+  width:100%;
+  height:50px;
+  background-color: #fff;
+}
+
+
+
+
+
+
+section p{
+  font-size: 48px;
+  color:#666;
+}
+
+
+/*📝select________________________ */
+header select{
+	width:150px;
+	height: 30px;
+	border:2px solid #002646;
+	border-radius: 30px;
+	background-color: transparent;
+	font-size: 16px;
+	font-weight: 600;
+	color:#002646;	
+	background: url(/image/language.png);
+  background-color: rgba(255, 255, 255, 0.8);
+	background-repeat: no-repeat;
+	background-position: 10px center;
+	background-size: 20px;
+	padding-left: 30px;
+
+}
+

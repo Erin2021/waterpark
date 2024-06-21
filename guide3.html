@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,400,0,0" />
+  <link rel="icon" type="image/x-icon" href="/image/favicon.png">
+  <link rel="stylesheet" href="/css/style.css">
+  <title>교통정보</title>
+</head>
+
+<body>
+  <div id="wrap">
+    <header>
+      <nav>
+        <a href="index.html"><img src="image/logo.png" alt="logo" title="캐리비안베이 로고"></a>
+        <ul class="gnb">
+          <li class="main"><a href="cbStory.html">캐비 스토리</a>
+          <li class="main"><a href="guide1.html">이용안내<i class="fa-solid fa-arrow-up"></i></a>
+            <ul class="sub s2">
+              <li><a href="guide1.html">오늘의 파크</a></li>
+              <li><i class="fa-solid fa-droplet"></i></li>
+              <li><a href="guide2.html">이용가이드</a></li>
+              <li><i class="fa-solid fa-droplet"></i></li>
+              <li><a href="guide3.html">교통정보</a></li>
+            </ul></li>
+          <li class="main"><a href="fee1.html">요금안내<i class="fa-solid fa-arrow-up"></i></a>
+            <ul class="sub s3">
+              <li><a href="fee1.html">이용요금</a></li>
+              <li><i class="fa-solid fa-droplet"></i></li>
+              <li><a href="fee2.html">이달의 할인</a></li>
+            </ul></li>
+          <li class="main"><a href="notice1.html">캐비 소식<i class="fa-solid fa-arrow-up"></i></a>
+            <ul class="sub s4">
+              <li><a href="notice1.html">공지사항</a></li>
+              <li><i class="fa-solid fa-droplet"></i></li>
+              <li><a href="notice2.html">이벤트</a></li>
+              <li><i class="fa-solid fa-droplet"></i></li>
+              <li><a href="notice3.html">자주 묻는 질문</a></li>
+            </ul></li>
+        </ul>
+        <select name="language" id="language">
+          <option disabled selected>Language</option>
+          <option value="eng">English</option>
+          <option value="kor">한국어</option>
+        </select>
+      </nav>
+  
+  
+      <div class="bg_box"></div>
+    </header>
+
+    
+
+
+    <main id="sub2">
+      <div class="video-frame">
+        <video src="image/sub2.mp4" autoplay muted loop poster="image/poster.jpg" ></video>
+      </div>
+      <div class="caption">
+        <p>이용 안내</p>
+      </div>
+    </main>
+
+    
+    <section id="container">
+    <div class="section_in">
+      <!-- 서브메뉴 -->
+      <div class="smenu">
+        <ul>
+          <li><a href="guide1.html">오늘의 파크</a></li>
+          <li><a href="guide2.html">이용가이드</a></li>
+          <li><a href="guide3.html" class="active">교통정보</a></li>
+        </ul>
+      </div>
+      <div class=section_title>
+        <h1>교통정보</h1>
+      </div>
+      <!-- 서브페이지 내용 -->
+      <div class="traffic">
+        <div class="trafficLeft">
+          <h3>캐리비안베이위치</h3>
+          <p><i class="fa-solid fa-location-dot"></i>경기 용인시 처인구 포곡읍 에버랜드로 199</p>
+          <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12695.663173821473!2d127.2008973!3d37.2971295!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357b56ae20ac23b3%3A0x41aa5b7a8a28b20c!2sCaribbean%20Bay!5e0!3m2!1sen!2skr!4v1716268089288!5m2!1sen!2skr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+
+        </div>
+        <div class="trafficRight">
+          <h3>지하철위치</h3>
+          <img src="image/subway.png" alt="지하철">
+          <ol>
+            <li>분당선 기흥역으로 이동</li>
+            <li>에버라인(경전철)으로 환승하세요!<br>에버라인 운행시간 : 05:30~23:30</li>
+            <li>에버라인 종점에 내려서 셔틀버스(무료)로 에버랜드,<br>캐리비안 베이까지 이동</li>
+          </ol>
+          <h3>버스이용</h3>
+          <ul>
+            <li><p><em>일반</em>5002번<i>신논현역 - 강남역 - 양재역 경유</i></p></li>
+            <li><p><em>일반</em>5700번<i>강변역 - 잠실역 - 송파역 - 수서역 경유</i></p></li>
+            <li><p><em>일반</em>1500-2번<i>사당역 - 남부터미널 - 판교역 - 분당(서현역) 경유</i></p></li>
+            <li><p><em>일반</em>1113번<i>강변역 - 강동역 - 광주시청 - 외대입구 경유</i></p></li>
+            <li><p><em>직행</em>8862번<i>인천터미널 - 수원영통</i></p></li>
+            <li><p><em>직행</em>8839번<i>인천터미널 - 범계역</i></p></li>
+            <li><p><em>일반</em>66번<i>수원역 - 수원 - 용인 경유</i></p></li>
+            <li><p><em>일반</em>66-4번<i>수원역 - 수원 - 동백 - 용인 경유</i></p></li>
+          </ul>
+
+        </div>
+      </div>
+
+    </div>
+
+	</section>
+
+  <footer>
+    <div class="footContent">
+      <div class="footLeft">
+        <img src="image/logo.png" alt="logo">
+        <ul class="des">
+          <li><a href="#none">이용약관</a></li>
+          <li><a href="#none">개인정보 처리방침</a></li>
+          <li><a href="#none">방침 개정 안내</a></li>
+          <li><a href="#none">이메일주소 무단수집 거부</a></li>
+          <li><a href="#none">입찰공고</a></li>
+          <li><a href="#none">고객센터 : 031-320-5000 (유료, 09:00~18:00)</a></li>
+        </ul>
+        <p>경기도 용인시 처인구 포곡읍 에버랜드로 199 삼성물산(주)<br>
+          대표이사 : 정해린  |  사업자등록번호 : 135-85-04288<br>
+          통신판매업 신고번호 : 제2006-용인처인-0216호</p>
+        <address>Copyright © Samsung C&T Corporation. All rights reserved.</address>
+      </div>
+
+      
+      <div class="footRight">
+        <div class="footerSelect">
+          <div class="family">
+            <div class="dropdown">
+              <div class="titleF">FAMILY SITE</div>
+              <ul class="sub-navi">
+                <li><a href="#none">삼성물산 리조트부문</a></li>
+                <li><a href="#none">베네스트 골프</a></li>
+                <li><a href="#none">삼성화재안내견학교</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="family">
+            <div class="dropdown">
+              <div class="titleF">리조트 내 시설</div>
+              <ul class="sub-navi">
+                <li><a href="#none">삼성화재 모빌리티뮤지엄</a></li>
+                <li><a href="#none">호암미술관</a></li>
+                <li><a href="#none">글렌로스 골프클럽</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <a href="#none"><!-- <img src="/image/footer1.png" alt="#notice"> --></a>
+      </div>
+      
+    </div>
+  </footer>
+
+  </div>
+
+
+  <!-- Script Source -->
+  <script src="js/jquery-3.7.0.min.js"></script>
+  <script src="js/jquery-ui-1.10.4.custom.min.js"></script>
+  <script src="js/script.js"></script>
+
+  
+</body>
+</html>
