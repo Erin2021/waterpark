@@ -191,7 +191,7 @@ header select{
 	font-size: 16px;
 	font-weight: 600;
 	color:#002646;	
-	background: url(/image/language.png);
+	background: url(../image/language.png);
   background-color: rgba(255, 255, 255, 0.8);
 	background-repeat: no-repeat;
 	background-position: 10px center;
