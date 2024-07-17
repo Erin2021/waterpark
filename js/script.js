@@ -40,7 +40,7 @@ $(document).ready(function(){
 
   //✨index.html
   function summerTimer(){
-    const summer = new Date('June 22,2024 00:00:00').getTime();
+    const summer = new Date('August 30,2024 00:00:00').getTime();
     const today = new Date().getTime();
     const countDown= summer - today;
     const countday = String(parseInt(countDown / (24 * 60 * 60 * 1000))).padStart(2,"0");
